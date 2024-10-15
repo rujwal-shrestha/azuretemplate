@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "acrName": {
+      "value": "myPrivateACR"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "subnetId": {
+      "value": "/subscriptions/xxxxxx/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+    },
+    "privateDnsZoneId": {
+      "value": "/subscriptions/xxxxxx/resourceGroups/myResourceGroup/providers/Microsoft.Network/privateDnsZones/privatelink.azurecr.io"
+    }
+  }
+}
